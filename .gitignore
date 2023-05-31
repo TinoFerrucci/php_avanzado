@@ -1,4 +1,7 @@
-# Ignore zip files
+# Ignore zip and rar files
 .zip
 .rar
+
+
+# Ignore some folder into php_avanzado
 php_avanzado/archivos_comprimidos
