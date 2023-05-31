@@ -1,0 +1,12 @@
+<div class='comentario_box'>
+            <p class='persona'>Constantino Ferrucci</p>
+            <p class='correo'>constantino@gmail.com</p>
+            <p class='comentario'>hola
+</p>
+            <p class='fecha'>Creado:31/5/2023 19:15</p>
+          </div><div class='comentario_box'>
+    <p class='persona'>holis gas</p>
+    <p class='correo'>constantino@gmail.com</p>
+    <p class='comentario'>saffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfafsaffasasfaf</p>
+    <p class='fecha'>Creado: 31/5/2023 19:17</p>
+</div>
