@@ -1,0 +1,4 @@
+# Ignore zip files
+.zip
+.rar
+php_avanzado/archivos_comprimidos
