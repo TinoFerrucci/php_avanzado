@@ -1,6 +1,6 @@
 <?php
 // Defino la ruta relativa a la imagen a reducir
-$path_imagen = "archivos/unidad4.jpg";
+$path_imagen = "archivos/images/unidad4.jpg";
 
 // Creamos la imagen ya sabiendo que es jpeg
 $imagen = imagecreatefromjpeg($path_imagen);
@@ -14,7 +14,7 @@ $thumbnail = imageCreate($alto, $ancho);
 ImageCopyResized($thumbnail, $imagen, 0, 0, 0, 0, $ancho, $alto, imagesx($imagen), imagesy($imagen));
 
 // Guardamos el thumbnail una vez ya creado
-imagejpeg($thumbnail, "archivos/thumbnail.jpg");
+imagejpeg($thumbnail, "archivos/images/thumbnail.jpg");
 
 // Destruimos las imagenes para liberar memoria
 imagedestroy($imagen);

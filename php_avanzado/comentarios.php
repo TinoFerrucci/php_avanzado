@@ -19,7 +19,7 @@ $texto = "<div class='comentario_box'>
 
 
 // Abrimos el archivo (o lo creamos), cargamos el texto y lo cerramos
-$f = fopen('archivos/comentarios.txt', 'a');
+$f = fopen('archivos/more/comentarios.txt', 'a');
 fwrite($f, $texto);
 fclose($f);
 

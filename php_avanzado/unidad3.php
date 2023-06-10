@@ -35,8 +35,8 @@
 			<input type="submit" value="Enviar">
 		</form>
 		<?php
-			if (file_exists('archivos/comentarios.txt')){
-				$f = fopen('archivos/comentarios.txt', 'r');
+			if (file_exists('archivos/more/comentarios.txt')){
+				$f = fopen('archivos/more/comentarios.txt', 'r');
 				fpassthru($f);
 				fclose($f);
 			} else{

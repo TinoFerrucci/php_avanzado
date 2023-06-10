@@ -20,10 +20,10 @@
 	<section>
 		<h2>Imágenes con PHP</h2>
 		<h3>Foto con marca de agua</h3>
-		<img src="archivos/tino2.jpg">
+		<img src="archivos/images/tino2.jpg">
 		<br>
 		<h3>Thumbnail</h3>
-		<img src="archivos/thumbnail.jpg">
+		<img src="archivos/images/thumbnail.jpg">
 		<?php	
 			include("foto_marca_agua.php");
 			include("foto_thumbnail.php");
