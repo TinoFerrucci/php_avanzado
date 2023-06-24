@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="estilos.css">
+  <?php session_start(); ?>
 </head>
  
 <body>
@@ -19,6 +20,14 @@
 	</header>
 	<section>
 		<h2>Usuarios</h2>
+		<form method='POST' action='caract_usuarios.php'>
+			<input type="text" name="nombre" id="nombre" required>
+			<input type="text" name="apellido" id="apellido" required>
+			<input type="date" name="fecha" required>
+
+			<input type="submit" value='Ingresar' name='ingresar'>
+		</form>
+		<?php if (isset($_SESSION['user'])){echo $_SESSION['user'];} ?>
 	</section>
 	<aside>
     
