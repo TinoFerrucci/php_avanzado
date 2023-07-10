@@ -1,7 +1,7 @@
-create table compras(
-id_compro id(5) auto_increment primary key,
-codigo int(10),
-producto varchar(50),
-descripcion varchar(255),
-precio decimal(5, 2)
-)
+CREATE TABLE compras(
+id_compra INT(5) AUTO_INCREMENT PRIMARY KEY,
+codigo INT(10),
+producto VARCHAR(50),
+descripcion VARCHAR(255),
+precio DECIMAL(5, 2)
+);
