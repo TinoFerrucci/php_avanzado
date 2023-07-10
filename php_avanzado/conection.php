@@ -24,6 +24,11 @@ class BaseDatos{
         return $lista;
     }
 
+    function select_one_query($query){
+        $response = $this->conexion->query($query);
+        return $response->fetch_assoc();
+    }
+
     function delete_query($query){
         $response = $this->conexion->query($query);
     }
